@@ -1,0 +1,7 @@
+"doesn't work yet :("
+
+{
+    "watch": ["src", "server"],
+    "exec": "npm start",
+    "ext": "ts"
+}
