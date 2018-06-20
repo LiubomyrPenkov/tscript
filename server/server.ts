@@ -1,6 +1,6 @@
 import * as express from 'express';
 import * as path from 'path'; 
-import router from './router.ts'
+import router from './router'
 
 const app: express.Application = express();
 
