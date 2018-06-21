@@ -10,5 +10,5 @@ app.use(express.static(path.resolve(__dirname, '../dist')));
 app.use('/', router);
 
 app.listen(app.get('port'), ()=>{
-    console.log('running on 3000 port');
+    console.log('running...');
 });
