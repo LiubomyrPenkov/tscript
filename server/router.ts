@@ -1,5 +1,6 @@
 import * as express from 'express';
 import * as path from 'path';
+import User from '../models/user'
 
 const router: express.Router = express.Router();
 
