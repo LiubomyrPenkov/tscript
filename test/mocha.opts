@@ -1,4 +1,4 @@
 --require source-map-support/register
 --full-trace
 --bail
-client/*.ts
+client/*.spec.ts
