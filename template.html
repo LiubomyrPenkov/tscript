@@ -7,6 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    Welcome to home page. Have a fun:)
+    <p>Welcome to home page. Have a fun:)</p>
+
+    <button id="users">Get All Users</button> 
+    
+    <br>
+    <hr>
+
+    <form id="addForm">
+            <input name="name" placeholder="name" type="text" required>
+            <input name="age" placeholder="age" type="number" min="0" max="100" required>
+            <select name="sex" required>
+                <option value="male"> male </option>
+                <option value="female">female</option>
+            </select>
+            <button type="submit">Add User</button>
+    </form>
+
+    <hr>
+
+    <form id="findForm">
+        <input name="name" placeholder="name" type="text">
+        <input name="age" placeholder="older than" type="number" min="0">
+        <select name="sex">
+            <option value="">any</option>
+            <option value="male"> male </option>
+            <option value="female">female</option>
+        </select>
+        <button type="submit">Find Users</button>
+    </form>
+
+    <div id="content"></div>
 </body>
 </html>
